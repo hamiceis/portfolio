@@ -69,19 +69,19 @@ html {
 }
 
 ::-webkit-scrollbar-track {
-  background-color: #0e091b;
+  background-color: #000000;
 }
 
 ::-webkit-scrollbar-thumb {
-  background-color: #6610f2;
+  background-color: #ffffff;
   border-radius: 8px;
 }
 
 header {
-  background: rgba(14, 9, 27, 0.8);
+  background: rgb(0, 0, 0);
   backdrop-filter: blur(24px);
   -webkit-backdrop-filter: blur(24px);
-  border-bottom: 1px solid rgba(114, 114, 126, 0.2);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
   z-index: 999;
   width: 100%;
   position: fixed;
@@ -149,7 +149,7 @@ header .grid-layout nav .nav-list li a::after {
   bottom: -7px;
   left: 0;
   background: -webkit-gradient(linear, right top, left top, from(#6610f2), to(#17161d));
-  background: linear-gradient(270deg, #6610f2 0%, #17161d 100%);
+  background: linear-gradient(270deg, #fafafa 0%, #17161d 100%);
   -webkit-transform-origin: bottom right;
           transform-origin: bottom right;
   -webkit-transition: -webkit-transform 0.5s cubic-bezier(0.86, 0, 0.07, 1);
@@ -240,7 +240,7 @@ header .grid-layout nav .nav-list li a:hover {
     width: 100vw;
     height: 100vh;
     z-index: 999;
-    background-color: #110e1b;
+    background-color: #000000;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
@@ -262,7 +262,7 @@ header .grid-layout nav .nav-list li a:hover {
 
 #s-home {
   padding: 0px 50px;
-  background-color: #0a091b;
+  background-color: #000000;
   position: relative;
 }
 
@@ -327,10 +327,11 @@ header .grid-layout nav .nav-list li a:hover {
 }
 
 #s-home .grid-layout #home #home-container-text a {
-  background: linear-gradient(225deg, rgba(102, 16, 242, 0.3) 0%, rgba(102, 16, 242, 0) 100%);
+  background: linear-gradient(225deg, rgb(0, 0, 0) 0%, rgba(102, 16, 242, 0) 100%);
   color: #fafafa;
   -webkit-backdrop-filter: blur(10px);
           backdrop-filter: blur(10px);
+  border-radius: 8px;
   padding: 15px 30px;
   max-width: 250px;
   display: -webkit-box;
@@ -342,7 +343,7 @@ header .grid-layout nav .nav-list li a:hover {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  border: 1px solid rgba(102, 16, 242, 0.5);
+  border: 1px solid rgba(250, 250, 250, 0.5);
   -webkit-transition: all 0.7s ease;
   transition: all 0.7s ease;
   margin-top: 30px;
@@ -354,7 +355,7 @@ header .grid-layout nav .nav-list li a:hover {
 #s-home .grid-layout #home #home-container-text a:hover {
   padding: 15px 45px;
   max-width: 280px;
-  background: linear-gradient(225deg, rgba(102, 16, 242, 0.6) 0%, rgba(102, 16, 242, 0) 100%);
+  background: linear-gradient(225deg, rgba(5, 20, 159, 0.933) 0%, rgba(102, 16, 242, 0) 100%);
 }
 
 #s-home .grid-layout #home #home-container-photo {
@@ -468,7 +469,7 @@ header .grid-layout nav .nav-list li a:hover {
 
 #s-about {
   padding: 96px 48px;
-  background-color: #110e1b;
+  background-color: #010103;
 }
 
 @media screen and (max-width: 992px) {
@@ -530,12 +531,12 @@ header .grid-layout nav .nav-list li a:hover {
 }
 
 #s-about .grid-layout #about-photo div img {
-  width: 48px;
+  width: 70px;
 }
 
 #s-about .grid-layout #about-photo .about-figure {
   position: absolute;
-  background-color: #1d152c;
+  background-color: #ffffff00;
   border-radius: 4px;
   width: 72px;
   height: 72px;
@@ -543,7 +544,7 @@ header .grid-layout nav .nav-list li a:hover {
 
 #s-about .grid-layout #about-photo .figure-one {
   top: 40px;
-  right: 430px;
+  right: 500px;
 }
 
 #s-about .grid-layout #about-photo .figure-two {
@@ -557,8 +558,8 @@ header .grid-layout nav .nav-list li a:hover {
 }
 
 #s-about .grid-layout #about-photo .icon-one {
-  -webkit-animation: icon-move 3s ease 2.9s infinite alternate;
-          animation: icon-move 3s ease 2.9s infinite alternate;
+  -webkit-animation: icon-move 2s ease 2.9s infinite alternate;
+          animation: icon-move 2s ease 2.9s infinite alternate;
 }
 
 #s-about .grid-layout #about-photo .icon-two {
@@ -577,8 +578,8 @@ header .grid-layout nav .nav-list li a:hover {
             transform: translate3d(0, 0, 0);
   }
   100% {
-    -webkit-transform: translate3d(10px, -40px, 0);
-            transform: translate3d(10px, -40px, 0);
+    -webkit-transform: translate3d(510px, 100px, -100px);
+            transform: translate3d(510px, 100px, -100px);
   }
 }
 
@@ -588,8 +589,8 @@ header .grid-layout nav .nav-list li a:hover {
             transform: translate3d(0, 0, 0);
   }
   100% {
-    -webkit-transform: translate3d(10px, -40px, 0);
-            transform: translate3d(10px, -40px, 0);
+    -webkit-transform: translate3d(100px, 0px, 100px);
+            transform: translate3d(100px, 0px, 100px);
   }
 }
 
@@ -630,7 +631,7 @@ header .grid-layout nav .nav-list li a:hover {
 }
 
 #s-about .grid-layout #about-text h2 span {
-  color: #6610f2;
+  color: #fbfbfb;
   font-size: 64px;
 }
 
@@ -644,7 +645,7 @@ header .grid-layout nav .nav-list li a:hover {
 #s-projects {
   padding: 96px 48px;
   text-align: center;
-  background-color: #0e091b;
+  background-color: #000000;
 }
 
 @media screen and (max-width: 992px) {
@@ -661,7 +662,7 @@ header .grid-layout nav .nav-list li a:hover {
 }
 
 #s-projects .grid-layout h2 span {
-  color: #6610f2;
+  color: #ffffff;
   font-size: 64px;
 }
 
@@ -682,7 +683,7 @@ header .grid-layout nav .nav-list li a:hover {
 }
 
 #s-projects .grid-layout #projects > article {
-  background-color: #110e1b;
+  background-color: #000000;
   height: auto;
   padding: 32px;
   margin: 8px;
@@ -691,13 +692,13 @@ header .grid-layout nav .nav-list li a:hover {
   -webkit-box-flex: 1;
       -ms-flex-positive: 1;
           flex-grow: 1;
-  border: 1px solid #0e091b;
+  border: 1px solid #161111;
   -webkit-transition: 1s all ease;
   transition: 1s all ease;
 }
 
 #s-projects .grid-layout #projects > article:hover {
-  border: 1px solid #6610f2;
+  border: 1px solid #0e0c8b;
 }
 
 @media screen and (max-width: 1200px) {
@@ -723,14 +724,14 @@ header .grid-layout nav .nav-list li a:hover {
 #s-projects .grid-layout #projects > article p {
   line-height: 24px;
   margin-top: 24px;
-  color: #cccccc;
+  color: #ffffff;
   line-height: 3.2rem;
   font-family: "DM Sans";
   font-size: 1.8rem;
 }
 
 #s-projects .grid-layout a {
-  color: #6610f2;
+  color: #ffffff9d;
   position: relative;
   font-size: 1.8rem;
   font-weight: 500;
@@ -746,7 +747,7 @@ header .grid-layout nav .nav-list li a:hover {
   bottom: -7px;
   left: 0;
   background: -webkit-gradient(linear, right top, left top, from(#6610f2), to(#17161d));
-  background: linear-gradient(270deg, #6610f2 0%, #17161d 100%);
+  background: linear-gradient(270deg, #ffffff 0%, #17161d 100%);
   -webkit-transform-origin: bottom right;
           transform-origin: bottom right;
   -webkit-transition: -webkit-transform 0.5s cubic-bezier(0.86, 0, 0.07, 1);
@@ -764,7 +765,7 @@ header .grid-layout nav .nav-list li a:hover {
 
 #s-services {
   padding: 96px 48px;
-  background-color: #110e1b;
+  background-color: #000000;
 }
 
 @media screen and (max-width: 992px) {
@@ -782,7 +783,7 @@ header .grid-layout nav .nav-list li a:hover {
 }
 
 #s-services .grid-layout h2 span {
-  color: #6610f2;
+  color: #ffffff;
   font-size: 64px;
 }
 
@@ -797,7 +798,7 @@ header .grid-layout nav .nav-list li a:hover {
 }
 
 #s-services .grid-layout #services article {
-  background-color: #0e091b;
+  background-color: #000000;
   height: auto;
   padding: 32px;
   margin: 8px;
@@ -812,7 +813,7 @@ header .grid-layout nav .nav-list li a:hover {
 }
 
 #s-services .grid-layout #services article:hover {
-  border: 1px solid #6610f2;
+  border: 1px solid #0e0c8b;
 }
 
 @media screen and (max-width: 1200px) {
@@ -853,7 +854,7 @@ header .grid-layout nav .nav-list li a:hover {
 
 #s-skills {
   padding: 96px 48px;
-  background-color: #0e091b;
+  background-color: #000000;
   padding-bottom: 32px;
 }
 
@@ -903,7 +904,7 @@ header .grid-layout nav .nav-list li a:hover {
 }
 
 #s-skills .grid-layout #skills #skills-text h2 span {
-  color: #6610f2;
+  color: #ffffff;
   font-size: 64px;
 }
 
@@ -955,15 +956,15 @@ header .grid-layout nav .nav-list li a:hover {
       -ms-flex-positive: 1;
           flex-grow: 1;
   height: 130px;
-  background-color: #110e1b;
+  background-color: #000000dc;
   position: relative;
-  border: 1px solid #0e091b;
+  border: 1px solid #151414;
   -webkit-transition: 1s all ease;
   transition: 1s all ease;
 }
 
 #s-skills .grid-layout #skills #skills-cards article:hover {
-  border: 1px solid #6610f2;
+  border: 1px solid #0e0c8b;
 }
 
 #s-skills .grid-layout #skills #skills-cards article:hover .skills-cards-name, #s-skills .grid-layout #skills #skills-cards article:hover .skills-cards-name-high, #s-skills .grid-layout #skills #skills-cards article:hover .skills-cards-name-low {
@@ -1089,7 +1090,7 @@ footer .grid-layout div img {
   opacity: 1;
   -webkit-animation: blink 1s infinite;
           animation: blink 1s infinite;
-  color: #6610f2;
+  color: #ffffff;
 }
 
 @-webkit-keyframes blink {
