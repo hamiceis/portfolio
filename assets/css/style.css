@@ -1009,7 +1009,6 @@ margin-top: 71px;
 }
 
 footer .grid-layout {    /* cx dos footer  */
-border: 1px solid rgba(0, 0, 0, 0.467);
 display: -webkit-box;
 display: -ms-flexbox;
 display: flex;
@@ -1035,7 +1034,7 @@ footer .grid-layout {
 }
 
 footer .grid-layout #direitos-autorais {
-margin-top: 24px;
+margin-top: 10px;
 }
 
 footer .grid-layout p {  /* paragrafos dos direitos autorais */
